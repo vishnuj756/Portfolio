@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 2em;
+}
+
+
+.nav12 a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin:0px 10px;
+}
+
+.nav12 a:hover {
+  color: white !important;
+  text-decoration: underline rgb(255, 225, 0);
+
+}
+
+.h12:hover {
+  transform: scale(1.3);
+  transition: ease-out 800ms;
+  right: 30px;
+}
+
+.firstmessage {
+
+  transition: 700ms;
+}
+
+.grid {
+  align-items: center;
+  justify-items: center;
+}
+
+.firstmessage:hover {
+
+  transform: scale(1.2);
+}
+
+.messages span {
+  min-width: 300px;
+}
+
+.banner {
+  background: url(./imges/bg\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+/* Box2.css */
+
+.custom-container {
+
+  background: #c1bbbb;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.par2 ul {
+  background: black;
+  color: white;
+  border-radius: 1em;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.item-card-content {
+  margin-top: -3em;
+}
+
+.card-title {
+  display: inline-block;
+  position: relative;
+  min-width: 100px;
+}
+
+.card-title::before {
+  content: " ";
+  position: absolute;
+  bottom: -9px;
+  width: 15px;
+  height: 15px;
+  border-right: 2px solid #ffc107;
+  border-top: 2px solid #ffc107;
+  transform: rotate(135deg);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.card-title::after{
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 4px;
+  bottom: -3px;
+  background-color: #dc3545;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 50px 
+}
+.icon-size svg{
+height: 20px;
+margin: 0px 5px ;
+}
+.footer-right-box div{
+  background-color: #17262b;
+  width: 150px;
+  text-align: center;
+  padding: 40px 15px;
+  border-radius: 10px 0px 10px 0px;
+  box-shadow: 12px 11px 0px rgba(142, 140, 140, 0.1);
+  color: white;
+ margin:0px 5px;
+}
+.contact-box{
+  box-shadow:-1px -7px 20px black;
+  height: 100%;
+}
+.pop-fot::before{
+  content: " ";
+    position: absolute;
+    bottom: 64px;
+    width: 19px;
+    height: 16px;
+    border-right: 2px solid #ffc107;
+    border-top: 2px solid #ffc107;
+    transform: rotate(135deg);
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: #ffc107;
+}
+/* Media queries for responsiveness */
+@media only screen and (min-width: 991px) {
+  .row .par2:nth-child(1) ul {
+    overflow: hidden;
+  }
+}
+
+
